@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main-div{
+    width:100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+h1{
+    position: absolute;
+    color: #fff;
+}
+.center_div{
+    width:15rem;
+    height: 15rem;
+    /* background-color: #fff; */
+    display: grid;
+    place-items: center;
+    position: relative;
+} 
+.rot{
+    position: absolute;
+    width:15rem;
+    height: 15rem;
+    border-top: 0.3rem solid #fff;
+    border-radius: 50%;
+    animation: loaders 1s linear infinite;
+}
+@keyframes loaders {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
