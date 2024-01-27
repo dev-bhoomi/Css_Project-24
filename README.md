@@ -1,8 +1,7 @@
 
-#Sliding Animation
+#Loading Animation with HTML and CSS
 
-Add flair to your webpage elements with this HTML and CSS project showcasing a smooth sliding animation. Engage your users with sleek and captivating transitions!
-
+This project presents a stylish Loading Animation created with HTML and CSS. The purpose is to provide an eye-catching and dynamic loading indicator for web applications.
 ## Demo
 
 Insert gif or link to demo
